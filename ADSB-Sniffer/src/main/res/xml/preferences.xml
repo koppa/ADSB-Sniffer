@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="GNS 5890 Receiver">
+        <de.graeb.adsbsniffer.ui.ListPreferenceSummary
+            android:entries="@array/gns_modes"
+            android:entryValues="@array/gns_mode_values"
+            android:key="settings_gns_mode"
+            android:title="@string/settings_gns_mode">
+        </de.graeb.adsbsniffer.ui.ListPreferenceSummary>
+
+        <SwitchPreference
+            android:key="settings_gns_timestamp"
+            android:title="@string/settings_timestamp"
+            />
+        <SwitchPreference
+            android:key="settings_gns_hearbeat"
+            android:title="@string/settings_heartbeat">
+        </SwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Position tracking (GPS)">
+        <SwitchPreference
+            android:key="settings_position_tracking"
+            android:title="@string/enabled" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="General">
+        <com.lukehorvat.NumberPickerDialogPreference
+            android:key="settings_flight_timeout"
+            android:defaultValue="10"
+            android:title="Timeout flight"
+            android:dialogMessage="Please select the timeout:"
+            custom:min="5"
+            android:max="30"/>
+        <SwitchPreference
+            android:key="settings_store_extern"
+            android:title="Store on external storage"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="6dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/total_count_modes_messages" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        style="@android:style/TextAppearance.Medium"
+        android:gravity="center"
+        android:id="@+id/text_cnt_smode" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/total_count_adsb_messages" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        style="@android:style/TextAppearance.Medium"
+        android:gravity="center"
+        android:id="@+id/text_cnt_adsb" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:text="@string/packet_rate" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        style="@android:style/TextAppearance.Medium"
+        android:gravity="center"
+        android:id="@+id/text_rate" />
+</LinearLayout>

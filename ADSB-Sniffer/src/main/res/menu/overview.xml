@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OverviewActivity" >
+    <item android:id="@+id/menu_switch_streaming" android:title="@string/menu_recording_switch" android:showAsAction="ifRoom" android:actionLayout="@layout/menu_recording_switch"/>
+</menu>

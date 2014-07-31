@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="gns_modes">
+        <item>Receiver off</item>
+        <item>Receive all messages</item>
+        <item>Receive ads-b messages</item>
+        <item>Receive ads-b messages with correct checksum</item>
+    </string-array>
+    <string-array
+        name="gns_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
