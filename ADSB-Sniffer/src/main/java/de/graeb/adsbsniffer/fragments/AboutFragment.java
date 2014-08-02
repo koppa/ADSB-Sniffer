@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import de.graeb.adsbsniffer.R;
+import de.graeb.adsbsniffer.ui.LicensesDialog;
 
 /**
  * @author markus
@@ -38,12 +40,21 @@ public class AboutFragment extends Fragment {
         final TextView discoPage = (TextView) rootView.findViewById(R.id.text_disco_page);
         final TextView email1 = (TextView) rootView.findViewById(R.id.text_email1);
         final TextView email2 = (TextView) rootView.findViewById(R.id.text_email2);
+        final Button buttonLicenses = (Button) rootView.findViewById(R.id.button_licenses);
 
         final OnClickUri disco = new OnClickUri("https://disco.informatik.uni-kl.de/");
         discoLogo.setOnClickListener(disco);
         discoPage.setOnClickListener(disco);
         email1.setOnClickListener(new OnClickUri("mailto: " + email1.getText()));
         email2.setOnClickListener(new OnClickUri("mailto: " + email2.getText()));
+
+        buttonLicenses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LicensesDialog licensesDialog = new LicensesDialog();
+                licensesDialog.show(getFragmentManager(), null);
+            }
+        });
 
         return rootView;
     }

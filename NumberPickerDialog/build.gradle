@@ -27,8 +27,6 @@ android {
     buildTypes{
         release {
             runProguard false
-            proguardFile 'proguard-rules.txt'
-            proguardFile getDefaultProguardFile('proguard-android.txt')
         }
     }
 }
