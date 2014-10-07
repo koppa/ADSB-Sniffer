@@ -1,6 +1,7 @@
 package de.graeb.adsbsniffer.adbsreceiver;
 
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.common.primitives.Booleans;
 
@@ -50,7 +51,9 @@ public class ADSBParser {
 
             string = string.substring(13);
         } else {
-            throw new ParseException("Illegal start character string=" + new String(line));
+            // throw new ParseException("Illegal start character string=" + new String(line));
+            Log.e("ADSBParser", "Line started with wrong character!!");
+            return null;
         }
 
         // check if received message consists of '0's
