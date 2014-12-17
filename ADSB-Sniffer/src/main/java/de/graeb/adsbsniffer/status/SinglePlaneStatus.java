@@ -15,7 +15,6 @@ import java.text.DateFormat;
 import java.util.Date;
 
 import de.graeb.adsbsniffer.DatabaseHelper;
-import de.graeb.adsbsniffer.R;
 import de.graeb.adsbsniffer.Recorder;
 import de.graeb.adsbsniffer.RecordingStatistics;
 import de.graeb.adsbsniffer.ui.PlaneImages;

@@ -3,8 +3,6 @@ package de.graeb.adsbsniffer.ui;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
 
-import de.graeb.adsbsniffer.R;
-
 /**
  * @author markus
  */

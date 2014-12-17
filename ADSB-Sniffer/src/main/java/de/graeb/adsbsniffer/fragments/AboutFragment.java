@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import de.graeb.adsbsniffer.R;
 import de.graeb.adsbsniffer.ui.LicensesDialog;
 
 /**

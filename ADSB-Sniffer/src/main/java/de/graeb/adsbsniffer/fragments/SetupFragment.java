@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import de.graeb.adsbsniffer.R;
-
 /**
  * @author markus
  */
