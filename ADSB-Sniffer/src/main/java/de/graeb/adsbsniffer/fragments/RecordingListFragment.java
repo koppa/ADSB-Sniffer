@@ -38,6 +38,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import de.graeb.adsbsniffer.DatabaseHelper;
+import de.graeb.adsbsniffer.R;
 import de.graeb.adsbsniffer.Recorder;
 
 /**

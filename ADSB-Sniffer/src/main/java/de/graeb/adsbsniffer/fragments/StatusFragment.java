@@ -13,6 +13,7 @@ import android.widget.Button;
 
 import java.text.DecimalFormat;
 
+import de.graeb.adsbsniffer.R;
 import de.graeb.adsbsniffer.Recorder;
 import de.graeb.adsbsniffer.RecordingStatistics;
 import de.graeb.adsbsniffer.status.AdsbStatus;

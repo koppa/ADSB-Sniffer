@@ -7,6 +7,7 @@ import android.os.Message;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import de.graeb.adsbsniffer.R;
 import de.graeb.adsbsniffer.Recorder;
 import de.graeb.adsbsniffer.RecordingStatistics;
 

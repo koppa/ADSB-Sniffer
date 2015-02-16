@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import de.graeb.adsbsniffer.R;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.

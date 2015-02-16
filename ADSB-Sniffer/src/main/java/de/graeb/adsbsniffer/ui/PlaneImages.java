@@ -1,5 +1,6 @@
 package de.graeb.adsbsniffer.ui;
 
+import de.graeb.adsbsniffer.R;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
 
